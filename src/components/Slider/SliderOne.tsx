@@ -35,7 +35,7 @@ const SliderOne = () => {
                             <div className="slider-item slider-first">
                                 <div className="bg-img">
                                     <Image
-                                        src={'/images/slider/1920x874.png'}
+                                        src={'/images/slider/slider5-1.webp'}
                                         width={4000}
                                         height={3000}
                                         alt="bgslider"

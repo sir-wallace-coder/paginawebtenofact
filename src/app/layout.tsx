@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TecnoFact - Soluciones Tecnológicas para tu Empresa",
   description: "TecnoFact ofrece soluciones tecnológicas innovadoras para impulsar tu negocio. Especialistas en facturación electrónica, desarrollo web y consultoría IT.",
+  icons: {
+    icon: '/images/Tecnofacticono.png',
+    shortcut: '/images/Tecnofacticono.png',
+    apple: '/images/Tecnofacticono.png',
+  },
 };
 
 export default function RootLayout({
@@ -16,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/images/Tecnofacticono.png" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
