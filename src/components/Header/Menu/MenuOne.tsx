@@ -44,7 +44,7 @@ const MenuOne = () => {
                             height={1000}
                             alt="TecnoFact Logo"
                             priority={true}
-                            className="w-[149px] max-sm:w-[132px]"
+                            className="w-[180px] max-sm:w-[160px]"
                         />
                     </Link>
                     <div className="menu-center-block h-full">
