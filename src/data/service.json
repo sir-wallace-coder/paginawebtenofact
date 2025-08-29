@@ -1,45 +1,45 @@
 [
     {
-        "icon": "icon-coin-chair",
-        "category": "payment solution",
-        "title": "Cryptocurrency Trading",
-        "desc": "Experience the excitement and potential of the cryptocurrency market with our expert trading services.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+        "icon": "icon-pc-code",
+        "category": "facturacion electronica",
+        "title": "CFDI App TecnoFact",
+        "desc": "La web app definitiva en facturación electrónica. Emite facturas, complementos, nóminas, cartas porte y más, con total personalización y un diseño intuitivo.",
+        "shortDesc": "Plataforma web integral para emisión y gestión de CFDIs con diseño intuitivo."
+    },
+    {
+        "icon": "icon-chart-blue",
+        "category": "facturacion electronica",
+        "title": "Panel CFDI",
+        "desc": "Centraliza la gestión de todas tus facturas entrantes y salientes en un solo lugar. Control total sobre tus operaciones fiscales.",
+        "shortDesc": "Panel de control centralizado para gestión completa de CFDIs."
+    },
+    {
+        "icon": "icon-vali",
+        "category": "facturacion electronica",
+        "title": "Monitor CFDI",
+        "desc": "Con nuestra conexión directa al SAT, aseguras la validez de tus comprobantes y cumples con las normativas fiscales en tiempo real.",
+        "shortDesc": "Validación automática de CFDIs con conexión directa al SAT."
     },
     {
         "icon": "icon-hand-tick",
-        "category": "payment solution",
-        "title": "Portfolio Management",
-        "desc": "We analyze market trends, manage risks, and optimize your portfolio to maximize returns and achieve your financial goals.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
-    },
-    {
-        "icon": "icon-hand-house",
-        "category": "payment solution",
-        "title": "Investment Advice",
-        "desc": "Our team of experienced advisors will guide you in making informed investment, whether you're a beginner trader.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
-    },
-    {
-        "icon": "icon-gear-warning",
-        "category": "payment solution",
-        "title": "Risk Management",
-        "desc": "We employ industry-leading tools and techniques to protect your investments and minimize potential losses.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+        "category": "facturacion electronica",
+        "title": "TimbraExpress",
+        "desc": "El autofacturador perfecto para integrar con sistemas punto de venta y generar CFDI de manera rápida y eficiente.",
+        "shortDesc": "Autofacturador para integración con sistemas POS y generación rápida de CFDIs."
     },
     {
         "icon": "icon-text-search",
-        "category": "payment solution",
-        "title": "Research and Analysis",
-        "desc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions.",
-        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+        "category": "facturacion electronica",
+        "title": "Integración Multipac",
+        "desc": "Conectada a los 10 principales PACs de México, TecnoFact te ofrece la flexibilidad de elegir el proveedor de timbrado que mejor se adapte a tus necesidades.",
+        "shortDesc": "Conexión con los 10 principales PACs de México para máxima flexibilidad."
     },
     {
         "icon": "icon-education",
-        "category": "payment solution",
-        "title": "Education and Resources",
-        "desc": "Expand your knowledge and skills in cryptocurrency trading through our educational resources.",
-        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+        "category": "facturacion electronica",
+        "title": "Soporte Técnico 24/7",
+        "desc": "Nuestro equipo de expertos está disponible para ayudarte con cualquier duda o problema técnico relacionado con la facturación electrónica.",
+        "shortDesc": "Soporte técnico especializado disponible las 24 horas del día."
     },
     {
         "icon": "icon-coin-hand",

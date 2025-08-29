@@ -39,96 +39,54 @@ const MenuOne = () => {
                 <div className="container flex items-center justify-between h-20">
                     <Link className="menu-left-block" href="/">
                         <Image
-                            src={'/images/Logo.png'}
+                            src={'/logos/TecnoFact2024.png'}
                             width={2000}
                             height={1000}
-                            alt="logo"
+                            alt="TecnoFact Logo"
                             priority={true}
                             className="w-[149px] max-sm:w-[132px]"
                         />
                     </Link>
                     <div className="menu-center-block h-full">
                         <ul className="menu-nav flex items-center xl:gap-2 h-full">
-                            <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/' || pathname.includes('/homepages/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>Home</span>
-                                <span><Icon.CaretDown className="text-sm" /></span>
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname === '/' ? 'active' : ''}`}><Link className="nav-link text-title" href="/">
+                                <span>Inicio</span>
                             </Link>
-                                <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/' ? 'active' : ''}`}><Link className="sub-nav-link font-medium" href="/">Payment Solution</Link></li>
-                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/homepages/home2">Financial Planning</Link></li>
-                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/homepages/home3">Online Banking</Link></li>
-                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/homepages/home4">Personal Finance</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/homepages/home5' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/homepages/home5">Cryptocurrency Financial</Link></li>
-                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/homepages/home6">Blockchain</Link></li>
-                                </ul>
                             </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/about/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>About</span>
-                                <span><Icon.CaretDown className="text-sm" /></span>
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/about/') ? 'active' : ''}`}><Link className="nav-link text-title" href="/about">
+                                <span>Nosotros</span>
                             </Link>
-                                <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/about/about-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/about/about-one">About Style 1</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/about/about-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/about/about-two">About Style 2</Link></li>
-                                </ul>
                             </li>
                             <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/service') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>Services</span>
+                                <span>Servicios</span>
                                 <span><Icon.CaretDown className="text-sm" /></span>
                             </Link>
                                 <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/service/service-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-one">Service Style 1</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/service/service-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-two">Service Style 2</Link></li>
-                                    <li className={`sub-nav-item ${pathname.includes('/service/service-detail') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-detail">Services Detail</Link></li>
+                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/service/cfdi-app">CFDI App TecnoFact</Link></li>
+                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/service/panel-cfdi">Panel CFDI</Link></li>
+                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/service/monitor-cfdi">Monitor CFDI</Link></li>
+                                    <li className={`sub-nav-item`}> <Link className="sub-nav-link font-medium" href="/service/timbraexpress">TimbraExpress</Link></li>
                                 </ul>
                             </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/case-studies/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>Case Studies</span>
-                                <span><Icon.CaretDown className="text-sm" /></span>
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/pages/pricing') ? 'active' : ''}`}><Link className="nav-link text-title" href="/pages/pricing">
+                                <span>Planes</span>
                             </Link>
-                                <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/case-studies/case-studies-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/case-studies/case-studies-one">Case Studies 1</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/case-studies/case-studies-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/case-studies/case-studies-two">Case Studies 2</Link></li>
-                                    <li className={`sub-nav-item ${pathname.includes('/case-studies/detail') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/case-studies/detail">Case Studies Detail</Link></li>
-                                </ul>
                             </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/pages/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>Pages</span>
-                                <span><Icon.CaretDown className="text-sm" /></span>
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/pages/faqs') ? 'active' : ''}`}><Link className="nav-link text-title" href="/pages/faqs">
+                                <span>FAQ</span>
                             </Link>
-                                <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/pages/faqs' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/pages/faqs">FAQs</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/pages/pricing' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/pages/pricing">Pricing</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/pages/partners' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/pages/partners">Partners</Link></li>
-                                </ul>
                             </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/blog/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>Blog</span>
-                                <span><Icon.CaretDown className="text-sm" /></span>
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/contact/') ? 'active' : ''}`}><Link className="nav-link text-title" href="/contact">
+                                <span>Contacto</span>
                             </Link>
-                                <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/blog/blog-list-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/blog/blog-list-one">Blog List 1</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/blog/blog-list-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/blog/blog-list-two">Blog List 2</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/blog/blog-grid' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/blog/blog-grid">Blog Grid</Link></li>
-                                    <li className={`sub-nav-item ${pathname.includes('/blog/blog-detail-one') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/blog/blog-detail-one">Blog Detail 1</Link></li>
-                                    <li className={`sub-nav-item ${pathname.includes('/blog/blog-detail-two') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/blog/blog-detail-two">Blog Detail 2</Link></li>
-                                </ul>
-                            </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/contact/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>Contact</span>
-                                <span><Icon.CaretDown className="text-sm" /></span>
-                            </Link>
-                                <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/contact/contact-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/contact/contact-one">Contact Style 1</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/contact/contact-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/contact/contact-two">Contact Style 2</Link></li>
-                                </ul>
                             </li>
                         </ul>
                     </div>
                     <div className="menu-right-block flex items-center">
                         <div className="icon-call"><i className="icon-phone-call text-4xl"></i></div>
                         <div className="text ml-3">
-                            <div className="text caption1">Free Consultancy</div>
-                            <div className="number text-button">+123 456 7890</div>
+                            <div className="text caption1">Soporte Técnico</div>
+                            <div className="number text-button">(669) 454-0439</div>
                         </div>
                         <div className="menu-humburger hidden pointer" onClick={() => setOpenMenuMobile(!openMenuMobile)}>
                             <Icon.List className="text-2xl" weight="bold" />
