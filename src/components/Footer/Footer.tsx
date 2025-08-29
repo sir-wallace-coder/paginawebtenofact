@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="flex max-lg:flex-col max-lg:items-start gap-y-10 pb-10">
                         <div className="lg:w-1/4">
                             <div className="footer-company-infor flex flex-col justify-between gap-5">
-                                <Image width={4000} height={3000} className="footer-logo w-[145px]" src="/logos/TecnoFact2024.png" alt="TecnoFact Logo" />
+                                <Image src="/images/TecnoFact2024.png" alt="TecnoFact Logo" width={149} height={40} className="w-[149px]" />
                                 <div className="text caption1 text-white">Somos una empresa especializada en soluciones integrales de facturación electrónica, diseñada para simplificar y optimizar tu gestión fiscal.</div>
                                 <div className="list-social flex items-center gap-2.5 style-one">
                                     <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.facebook.com/" target="_blank">
